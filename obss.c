@@ -3,8 +3,8 @@ int main(){
 	
     int i=0;
     int jump=1;
-	char S[9]={'a','b','?','?','a','b','?','a','?'}; 
-   while(S[i]!='\0'){
+    char S[9]={'a','b','?','?','a','b','?','a','?'}; 
+    while(S[i]!='\0'){
        jump=1;
        if(S[i]=='?'){
            if(i==0){
@@ -27,12 +27,9 @@ int main(){
                 }
                 else{
                     if(S[i-1]==S[i-2]){
-                       
-                        S[i]=195-S[i-1];
-
+                       S[i]=195-S[i-1];
                     }
                     else if(S[i-1]==S[i-2]){
-                       
                         S[i]=195-S[i-1];
                     }
                     else{
@@ -40,7 +37,6 @@ int main(){
                     }
                     jump=2;
                 }
-
             }
        }
        i=i+jump;
