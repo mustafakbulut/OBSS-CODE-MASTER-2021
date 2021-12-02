@@ -1,8 +1,8 @@
 # OBSS-CODE-MASTER-2021
 
-OBSS Code Master Yarışmasında üniversite içerisinde 1. olmamı sağlayan çözüm.
+The solution that allowed me to be the 1st in the university in the OBSS Code Master Competition.
 
 ## Problem
 
-Hikayeleştirilmiş problemin kısaca açıklaması: Bir dizi içerisinde sadece 'a', 'b' ve '?' karakterleri vardır. '?' karakterleri yerine 'a' veya 'b' konulması istenmektedir.
-Kurala göre 'aaa' ve 'bbb' yanyana gelememektedir.
+Brief description of the narrated problem: 
+There are only 'a', 'b' and '?' in a character array. It is desirable to replace the characters '?' with 'a' or 'b'. According to the rule, 'aaa' and 'bbb' cannot come together.
